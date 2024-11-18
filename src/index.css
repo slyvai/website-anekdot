@@ -47,8 +47,7 @@ body {
 }
 
 .container-2 {
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 4em auto;
 }
 
 .stories-card {
@@ -61,7 +60,6 @@ body {
   font-size: 1.2em;
   margin: 2em auto;
   border-radius: 10px;
-  margin-left: 17.7em;
   transition: 0.2s;
   overflow: hidden;
   padding: 2em;
