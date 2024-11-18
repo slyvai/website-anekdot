@@ -90,4 +90,37 @@ body {
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 768px) {
+  .stories-card {
+    width: 100%; 
+    padding: 1em; 
+    font-size: 1em;
+  }
 
+  .stories-card h1 {
+    font-size: 1.2em; 
+    padding: 0.5em; 
+  }
+
+  .image-stories {
+    height: 200px;
+    font-size: 5em; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stories-card {
+    width: 95%; 
+    padding: 0.5em; 
+    margin: 1em auto; 
+  }
+
+  .stories-card h1 {
+    font-size: 1em; 
+  }
+
+  .image-stories {
+    height: 150px; 
+    font-size: 3em; 
+  }
+}
